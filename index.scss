@@ -5,27 +5,40 @@
     width: 100vw;
     height: 100vh;
     background-color: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dialog {
     background-color: #fff;
     max-height: 500px;
     max-width: 350px;
+    display: flex;
+    flex-direction: column;
 
     &__header {
         background-color: #ddd;
+        display: flex;
     }
 
     &__header-title-container {
+        width: 65%;
     }
 
     &__header-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
-
+    
     &__header-button {
+        flex: 1;
     }
 
     &__content {
+        display: flex;
+        overflow: hidden;
     }
 
     &__content-block {
@@ -36,11 +49,14 @@
 
         &_right {
             width: 70%;
+            overflow-y: auto;
         }
     }
-
+    
     &__footer {
         background-color: #ddd;
+        text-align: center;
+        word-break: break-word;
     }
 }
 
