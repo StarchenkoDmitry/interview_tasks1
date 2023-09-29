@@ -1,0 +1,23 @@
+{
+  "name": "interview_tasks1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./index.scss:./index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarchenkoDmitry/interview_tasks1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarchenkoDmitry/interview_tasks1/issues"
+  },
+  "homepage": "https://github.com/StarchenkoDmitry/interview_tasks1#readme",
+  "dependencies": {
+    "sass": "^1.68.0"
+  }
+}
